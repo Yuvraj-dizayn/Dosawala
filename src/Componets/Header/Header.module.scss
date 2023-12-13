@@ -1,0 +1,150 @@
+.Header {
+  height: 114px;
+  display: flex;
+  align-items: center;
+  background: #4ca53e;
+  justify-content: space-between;
+  padding-left: 10.39%;
+  padding-right: 10.1%;
+  .Icon {
+    cursor: pointer;
+    svg {
+      width: 54px;
+      height: 57px;
+    }
+  }
+  .Desc {
+    display: flex;
+    justify-content: space-between;
+    // width: 30.96%;
+    width: 423px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    .One {
+      border-bottom: 2px solid #d5fbdd;
+      cursor: pointer;
+    }
+    .Two {
+      border-bottom: 2px solid #d5fbdd;
+      cursor: pointer;
+    }
+    .Three {
+      border-bottom: 2px solid #d5fbdd;
+      cursor: pointer;
+    }
+    .Four {
+      border-bottom: 2px solid #d5fbdd;
+      cursor: pointer;
+    }
+  }
+  .ListIcon {
+    display: none;
+  }
+  .Hide_Div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30.3%;
+    height: 327px;
+    background: #134d0a;
+    color: #fcfbef;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-left: 17.39%;
+    // padding-right: 30%;
+    padding-right: 17.39%;
+    .One {
+      border-bottom: 1px solid #d5fbdd;
+      margin-top: 15.21%;
+    }
+    .Two {
+      border-bottom: 1px solid #d5fbdd;
+      margin-top: 20px;
+    }
+    .Three {
+      border-bottom: 1px solid #d5fbdd;
+      margin-top: 20px;
+    }
+    .Four {
+      border-bottom: 1px solid #d5fbdd;
+      margin-bottom: 26.81%;
+      margin-top: 20px;
+    }
+  }
+  // .Hide_Div {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   flex-direction: column;
+  //   width: 30.3%;
+  //   height: 327px;
+  //   background: #134d0a;
+  //   color: #fcfbef;
+  //   font-size: 16px;
+  //   font-style: normal;
+  //   font-weight: 500;
+  //   line-height: normal;
+  //   text-transform: capitalize;
+  //   .main {
+  //     padding-left: 17.39%;
+  //     padding-right: 30%;
+  //   }
+  // }
+}
+@media (max-width: 900px) {
+  .Header {
+    // margin-bottom: ;
+    // padding-left: 4.88%;
+    padding-left: 0;
+    padding-right: 0;
+    // padding-right: 4.11%;
+    .Icon {
+      padding-left: 4.88%;
+    }
+    .Desc {
+      display: none;
+    }
+    .ListIcon {
+      display: block;
+      padding-right: 4.11%;
+    }
+    .Hide_Div {
+      z-index: 2;
+      position: absolute;
+      top: 84px;
+      // top: 15%;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      .One {
+        margin-left: 20px;
+        margin-right: 20%;
+      }
+      .Two {
+        margin-left: 20px;
+        margin-right: 20%;
+      }
+      .Three {
+        margin-left: 20px;
+        margin-right: 20%;
+      }
+      .Four {
+        margin-left: 20px;
+        margin-right: 20%;
+      }
+    }
+  }
+}
+@media (min-width: 900px) {
+  .Header {
+    .Hide_Div {
+      display: none;
+    }
+  }
+}

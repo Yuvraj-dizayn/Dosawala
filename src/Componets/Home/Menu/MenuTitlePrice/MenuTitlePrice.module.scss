@@ -1,0 +1,43 @@
+.One {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 9.95%;
+  min-width: 15em;
+
+  // width: 600px;
+
+  .oneDesc {
+    margin-bottom: 16px;
+    padding-right: 10px;
+    color: #828282;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142%;
+    text-transform: capitalize;
+  }
+
+  .extra {
+    flex: 1;
+    // background-color: rebeccapurple;
+    height: 15px;
+    border-bottom: dotted 2px #ececec;
+  }
+  .price {
+    padding-left: 10px;
+    color: #828282;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+}
+// .One:after {
+//   content: "";
+
+//   display: block;
+//   overflow: hidden;
+//   height: 0.8em;
+// }

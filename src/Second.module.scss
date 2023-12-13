@@ -1,0 +1,166 @@
+.Main_Container {
+  margin-top: 7.75%;
+  display: flex;
+  justify-content: space-between;
+  // padding-left: 13.39%;
+  // padding-right: 13.17%;
+  padding-left: 9.51%;
+  padding-right: 10.46%;
+  .Main_Container_Desc_Container {
+    width: 37.92%;
+    .Main_Container_Desc_Container_Desc1 {
+      margin-bottom: 50px;
+      .Main_Container_Desc_Container_Title {
+        color: #1a750b;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: capitalize;
+        width: 85px;
+        height: 35px;
+        margin: 10px;
+      }
+      .Main_Container_Desc_Container_DescOne {
+        color: #6f6f6f;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130.5%;
+        margin: 10px;
+      }
+    }
+    .Main_Container_Desc_Container_Desc2 {
+      .Main_Container_Desc_Container_Title {
+        color: #1a750b;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: capitalize;
+        width: 85px;
+        height: 35px;
+        margin: 10px;
+      }
+      .Main_Container_Desc_Container_DescTwo {
+        color: #6f6f6f;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130.5%;
+        margin: 10px;
+      }
+    }
+  }
+  .Main_Container_Second_Container {
+    background-color: #ffcc28;
+    // width: 25%;
+    // height: 36%;
+    width: 493px;
+    height: 493px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .Main_Container_Second_Container_Title {
+      color: #fcfbef;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      text-transform: capitalize;
+      margin-top: 10.77%;
+    }
+    .Main_Container_Second_Container_One {
+      // width: 90%;
+      width: 67%;
+      max-width: 334px;
+      height: 46px;
+
+      border-radius: 2px;
+      background: #fff;
+      box-shadow: 3px 4px 15px 0px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      // justify-content: space-between;
+      // margin-right: 76px;
+      // margin-left: 83px;
+      margin-top: 43px;
+
+      .Main_Container_Second_Container_One_Image {
+        width: 16px;
+        height: 19px;
+        // padding-left: 120px;
+        padding-left: 22px;
+        padding-right: 27px;
+      }
+      .Main_Container_Second_Container_One_Title {
+        color: #1a750b;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        // padding-right: 110px;
+      }
+    }
+    .Main_Container_Second_Container_Two {
+      // width: 90%;
+      width: 67%;
+      max-width: 334px;
+      height: 46px;
+
+      border-radius: 2px;
+      background: #fff;
+      box-shadow: 3px 4px 15px 0px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+
+      margin-top: 53px;
+
+      .Main_Container_Second_Container_One_Image {
+        width: 16px;
+        height: 19px;
+
+        padding-left: 22px;
+        padding-right: 27px;
+      }
+      .Main_Container_Second_Container_One_Title {
+        color: #1a750b;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .Main_Container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 0;
+    padding-right: 0;
+    .Main_Container_Desc_Container {
+      width: 100%;
+    }
+    .Main_Container_Second_Container {
+      width: 100%;
+      justify-content: center;
+
+      .Main_Container_Second_Container_Title {
+        margin-top: 5.11%;
+
+        // margin-left: 14.11%;
+        // margin-right: 14.11%;
+      }
+    }
+    .Main_Container_Second_Container_One {
+      margin-top: 0;
+    }
+    .Main_Container_Second_Container_One {
+      margin-top: 9.88%;
+    }
+  }
+}

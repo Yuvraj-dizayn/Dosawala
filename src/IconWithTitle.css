@@ -1,0 +1,25 @@
+.Navbar_DashBoard_Icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.Navbar_DashBoard_Font {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #d5ebf2;
+}
+.Navbar_Dashboard {
+  display: flex;
+  width: 180px;
+  height: 40px;
+  padding: 10px 10px 10px 16px;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 8px;
+  /* background-color: #65bbd6; */
+}
+.Navbar_Dashboard:hover {
+  background-color: #65bbd6;
+}

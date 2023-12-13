@@ -1,0 +1,102 @@
+.Container {
+  background-color: #59b54b;
+  display: flex;
+  // margin-bottom: 383px;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  position: relative;
+  padding-bottom: 31.5vh;
+
+  .Title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 216px;
+    margin-top: 6.36%;
+    margin-bottom: 5%;
+
+    .MainTitle {
+      color: #fff;
+      text-align: center;
+      font-size: 72px;
+      font-size: clamp(44px, 5.5vw, 72px);
+      font-style: normal;
+      font-weight: 700;
+      line-height: 125%;
+    }
+    .SubTitle {
+      color: #f9f9f9;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 156.5%;
+    }
+
+    .btnContainer {
+      margin-top: 78px;
+      // margin-bottom: 48vh;
+      .btn {
+        width: 222px;
+        height: 44px;
+        border-radius: 52px;
+        border: 2px solid #fff;
+        color: #fff;
+        text-align: center;
+        background-color: #59b54b;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 156.5%;
+      }
+    }
+  }
+  .imageContainer {
+    position: absolute;
+    left: 0;
+    // bottom: 17vh;
+    bottom: -0.5vh;
+    width: 100%;
+    .imageOne {
+    }
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .secondImageContainer {
+    .secondImageOne {
+      position: absolute;
+      left: 0;
+      bottom: -20vh;
+      width: 37%;
+
+      .ImageOne {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    .secondImageTwo {
+      position: absolute;
+      right: 0;
+      bottom: -20vh;
+      width: 39%;
+      .ImageTwo {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .Container {
+    margin-bottom: 100px;
+    .secondImageContainer {
+      display: none;
+    }
+  }
+}

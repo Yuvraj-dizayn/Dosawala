@@ -1,0 +1,111 @@
+.Footer {
+  // margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6.73%;
+  // margin-bottom: 40px;
+  padding-left: 4.9%;
+  padding-right: 4.9%;
+
+  .Container_One {
+    // padding-left: 4.9%;
+    width: 15.75%;
+    .Title {
+      color: #1a750b;
+      font-size: 18px;
+      font-weight: 800;
+    }
+    .subTitle {
+      width: 100%;
+      color: #666666;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 3%;
+    }
+  }
+  .Container_Two {
+    width: 15.75%;
+    // padding-left: 2.34%;
+    // padding-right: 2.34%;
+    .Title {
+      color: #1a750b;
+      font-size: 18px;
+      font-weight: 800;
+    }
+    .subTitle {
+      width: 100%;
+      width: 100%;
+      color: #666666;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 3%;
+    }
+  }
+  .Image_Container {
+    // padding-right: 10.32%;
+    width: 16.47%;
+    .Title {
+      color: #1a750b;
+      font-size: 18px;
+      font-weight: 800;
+    }
+    .Image {
+      margin-top: 3%;
+    }
+  }
+}
+.lastDesc {
+  // margin-bottom: 40px;
+  text-align: center;
+}
+@media (max-width: 1150px) {
+  .Footer {
+    .Container_One {
+      width: 165px;
+      padding-left: 2%;
+    }
+    .Container_Two {
+      width: 157px;
+    }
+    .Image_Container {
+      // width: 100%;
+      padding-right: 2%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .Footer {
+    // margin-bottom: 41%;
+    flex-direction: column;
+    margin-top: 0;
+    .Container_One {
+      margin-top: 5%;
+      padding-left: 3.44%;
+      padding-right: 16.88%;
+    }
+    .Container_Two {
+      padding-left: 3.44%;
+      margin-top: 3%;
+    }
+    .Image_Container {
+      width: 40%;
+      // sdisplay: flex;
+      // justify-content: center;
+      .Title {
+        padding-left: 3.44%;
+      }
+      .Image {
+        // margin-top: 0;
+      }
+      img {
+        margin-top: 10%;
+        padding-left: 40%;
+        padding-right: 30%;
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.imageContainer {
+  min-width: 142px;
+  width: 14.49vw;
+  max-width: 250px;
+  height: fit-content;
+  // width: 14.49%;
+  background: #fff;
+  box-shadow: 0px 1.724px 34.474px 0px rgba(0, 0, 0, 0.2);
+  // margin: 10px;
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .Desc {
+    // width: 100%;
+    height: fit-content;
+    padding: 6px 9px 7px 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding-left: 10px;
+    .DescOne {
+      width: fit-content;
+      color: #000;
+      font-size: 15.513px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 23px;
+    }
+    .DescTwo {
+      width: fit-content;
+      color: #acacac;
+      font-size: 11.204px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: -0.224px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .imageContainer {
+    // margin-top: 40px;
+    min-width: unset;
+    max-width: unset;
+    width: 200px;
+    margin-right: 0px;
+    // margin-left: 30px;
+    // padding-right: 99px;
+    // padding-left: 99px;
+    // transform: translateX(-21px);
+    // width: 100%;
+    .image {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}

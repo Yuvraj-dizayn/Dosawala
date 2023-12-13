@@ -1,0 +1,74 @@
+.Container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .Title {
+    // width: 364px;
+    // width: 29.94%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    // padding-left: 34.62%;
+    // padding-right: 38.65%;
+    margin-bottom: 49px;
+    justify-content: space-between;
+    .oneTitle {
+      color: #9e9e9e;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .twoTitle {
+      color: #175a0c;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  .sliderContainer {
+    width: 100%;
+    height: fit-content;
+    .One {
+      display: flex;
+      flex-direction: column;
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      .Desc {
+        // width: 723px;
+        width: 52.92%;
+        text-align: center;
+        color: #6f6f6f;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 139%;
+        margin-bottom: 53px;
+      }
+      .Title {
+        color: #0c691b;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 139%;
+      }
+    }
+  }
+}
+
+// @media (max-width: 1070px) {
+//   .Container {
+//     .Title {
+//       padding-left: 20%;
+//       padding-right: 20%;
+//     }
+//   }
+// }

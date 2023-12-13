@@ -1,0 +1,138 @@
+.Navbar_Client_Icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+.Navbar_Client {
+  display: flex;
+  width: 180px;
+  height: 40px;
+  padding: 10px 10px 10px 16px;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 8px;
+  /* background-color: #65bbd6; */
+}
+.Navbar_Client_Font {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #d5ebf2;
+}
+.Navbar {
+  background-color: #05303e;
+  width: 212px;
+  height: 872px;
+  display: flex;
+  flex-direction: column;
+}
+.Navbar_DashBoard_Icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.Navbar_DashBoard_Font {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #d5ebf2;
+}
+.Navbar_Dashboard {
+  display: flex;
+  width: 180px;
+  height: 40px;
+  padding: 10px 10px 10px 16px;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 44px;
+  /* background-color: #65bbd6; */
+}
+.Navbar_Main_Title {
+  color: #65bbd6;
+  font-family: Petrona;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  margin-top: 20px;
+  margin-right: 87px;
+  margin-left: 32px;
+}
+.Navbar_Folder_Icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.Navbar_Folder_Font {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #d5ebf2;
+}
+.Navbar_Folder {
+  display: flex;
+  width: 180px;
+  height: 40px;
+  padding: 10px 10px 10px 16px;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 8px;
+  /* background-color: #65bbd6; */
+}
+.Navbar_Timer_Icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.Navbar_Timer_Font {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #d5ebf2;
+}
+.Navbar_Timer {
+  display: flex;
+  width: 180px;
+  height: 40px;
+  padding: 10px 10px 10px 16px;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 8px;
+  /* background-color: #65bbd6; */
+}
+.Navbar_Second_Title {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #2dbaa7;
+  margin-left: 32px;
+  margin-top: 24px;
+}
+.Navbar_Invoices {
+  display: flex;
+  width: 180px;
+  height: 40px;
+  padding: 10px 10px 10px 16px;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 24px;
+}
+.Navbar_Invoices_Icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.Navbar_Invoices_Font {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #d5ebf2;
+}

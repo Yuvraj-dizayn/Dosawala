@@ -1,0 +1,108 @@
+.Container {
+  // margin-top: 383px;
+  display: flex;
+  justify-content: space-between;
+  // padding-left: 5.71%;
+  padding-left: 11.85%;
+  padding-right: 10.61%;
+  // background: linear-gradient(180deg, #e4f0fa 0%, rgba(228, 240, 250, 0) 100%);
+
+  .leftContainer {
+    width: 40.19%;
+    height: 307px;
+    .image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  .rightContainer {
+    width: 37.92vw;
+    height: fit-content;
+    .TitleOne {
+      color: #9e9e9e;
+      margin: 10px;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+      // text-align: center;
+    }
+    .Title {
+      color: #175a0c;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 10px;
+      // margin-left: 10px;
+      // padding-right: 1px;
+      // border-bottom: 2px solid #f5ec0e;
+    }
+    .DescOne {
+      color: #6f6f6f;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 139%;
+      margin: 10px;
+    }
+    .DescTwo {
+      color: #6f6f6f;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 139%;
+      margin: 10px;
+    }
+    .arrowContainer {
+      display: flex;
+      align-items: center;
+      color: #086c30;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 131.5%;
+      letter-spacing: -0.28px;
+      .vector {
+        margin: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .Container {
+    padding-left: 2%;
+    padding-right: 7%;
+  }
+}
+@media (max-width: 900px) {
+  .Container {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    // margin: 0 auto;
+    .leftContainer {
+      width: 100%;
+      max-width: 590px;
+      margin: auto;
+      height: fit-content;
+      .image {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    .rightContainer {
+      width: 100%;
+      .TitleOne {
+        text-align: center;
+      }
+      .Title {
+        text-align: center;
+      }
+    }
+  }
+}
