@@ -1,12 +1,12 @@
 import React from "react";
 import "./ImageWithDesc.scss";
-// import DowavalaIcon from "./Componets/Icons/DosawalaIcon";
 
 const ImageWithDesc = (props) => {
   const { type } = props;
 
   return type ? (
     <div
+      id="Grouth"
       className="Main_Container"
       style={{
         marginTop: props.Margin_Top ? "9.83%" : "9.80%",
@@ -25,10 +25,6 @@ const ImageWithDesc = (props) => {
       </div>
 
       <div className="Main_Container_Right">
-        {/* {props.Margin_Top && (
-          <h3 className="Main_Container_Right_Title">Know us</h3>
-        )} */}{" "}
-        :
         {props.Margin_Top ? (
           <h3 className="Main_Container_Right_Title">Know us</h3>
         ) : null}
@@ -43,7 +39,7 @@ const ImageWithDesc = (props) => {
       </div>
     </div>
   ) : (
-    <div className="Main_Container1" style={props.style}>
+    <div className="Main_Container1" style={props.style} id="OurStory">
       <div className="Main_Container_Right">
         <h2 className="Main_Container_Right_Main_Title">{props.Title}</h2>
 

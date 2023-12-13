@@ -14,7 +14,9 @@ const FirstSlide = () => {
         </p>
 
         <div className={style.btnContainer}>
-          <button className={style.btn}>see menu</button>
+          <button className={style.btn}>
+            <a href="#Menu">Menu</a>
+          </button>
         </div>
       </div>
 

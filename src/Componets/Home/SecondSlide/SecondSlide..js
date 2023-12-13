@@ -17,6 +17,7 @@ const SecondSlide = () => {
         }
         Title={"Our Story"}
         top={true}
+        link
       />
     </div>
   );

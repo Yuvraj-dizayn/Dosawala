@@ -45,6 +45,9 @@
       text-transform: uppercase;
       padding-right: 10px;
     }
+    .active {
+      border-bottom: 3px solid #8bb31d;
+    }
   }
   .secondContainer {
     display: flex;

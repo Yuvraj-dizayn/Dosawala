@@ -2,27 +2,26 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 .App {
   height: 100vh;
 }
-
 body {
   background-color: #fcfbef;
 }
 .slick-prev {
-  /* left: 128px !important; */
   left: 9.37% !important;
   top: 30% !important;
 }
 .slick-next {
-  /* right: 128px !important; */
   right: 9.37% !important;
   top: 30% !important;
 }
 *::-webkit-scrollbar {
   display: none;
 }
-
 @media (max-width: 900px) {
   .slick-next {
     right: 6.37% !important;

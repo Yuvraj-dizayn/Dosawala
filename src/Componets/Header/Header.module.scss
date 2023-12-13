@@ -24,21 +24,43 @@
     font-weight: 500;
     line-height: normal;
     text-transform: capitalize;
+    p {
+      a:link {
+        text-decoration: none;
+      }
+      a {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+    }
+
     .One {
-      border-bottom: 2px solid #d5fbdd;
       cursor: pointer;
+    }
+    .One:hover {
+      border-bottom: 2px solid #d5fbdd;
     }
     .Two {
-      border-bottom: 2px solid #d5fbdd;
       cursor: pointer;
+    }
+    .Two:hover {
+      border-bottom: 2px solid #d5fbdd;
     }
     .Three {
-      border-bottom: 2px solid #d5fbdd;
       cursor: pointer;
     }
-    .Four {
+    .Three:hover {
       border-bottom: 2px solid #d5fbdd;
+    }
+    .Four {
       cursor: pointer;
+    }
+    .Four:hover {
+      border-bottom: 2px solid #d5fbdd;
     }
   }
   .ListIcon {
@@ -60,6 +82,19 @@
     padding-left: 17.39%;
     // padding-right: 30%;
     padding-right: 17.39%;
+    p {
+      a:link {
+        text-decoration: none;
+      }
+      a {
+        color: #fcfbef;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+    }
     .One {
       border-bottom: 1px solid #d5fbdd;
       margin-top: 15.21%;
@@ -78,32 +113,11 @@
       margin-top: 20px;
     }
   }
-  // .Hide_Div {
-  //   display: flex;
-  //   justify-content: space-between;
-  //   flex-direction: column;
-  //   width: 30.3%;
-  //   height: 327px;
-  //   background: #134d0a;
-  //   color: #fcfbef;
-  //   font-size: 16px;
-  //   font-style: normal;
-  //   font-weight: 500;
-  //   line-height: normal;
-  //   text-transform: capitalize;
-  //   .main {
-  //     padding-left: 17.39%;
-  //     padding-right: 30%;
-  //   }
-  // }
 }
 @media (max-width: 900px) {
   .Header {
-    // margin-bottom: ;
-    // padding-left: 4.88%;
     padding-left: 0;
     padding-right: 0;
-    // padding-right: 4.11%;
     .Icon {
       padding-left: 4.88%;
     }
@@ -118,7 +132,6 @@
       z-index: 2;
       position: absolute;
       top: 84px;
-      // top: 15%;
       width: 100%;
       padding-left: 0;
       padding-right: 0;

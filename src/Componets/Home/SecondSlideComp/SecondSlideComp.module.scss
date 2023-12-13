@@ -59,15 +59,17 @@
     .arrowContainer {
       display: flex;
       align-items: center;
-      color: #086c30;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 131.5%;
-      letter-spacing: -0.28px;
+
       .vector {
         margin: 10px;
         cursor: pointer;
+        color: #086c30;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 131.5%;
+        letter-spacing: -0.28px;
+        text-decoration: none;
       }
     }
   }
@@ -81,6 +83,7 @@
 }
 @media (max-width: 900px) {
   .Container {
+    padding-top: unset !important;
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;

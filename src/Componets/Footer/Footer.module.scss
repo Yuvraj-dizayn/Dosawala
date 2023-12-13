@@ -6,6 +6,12 @@
   // margin-bottom: 40px;
   padding-left: 4.9%;
   padding-right: 4.9%;
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 240.5%;
+  text-transform: capitalize;
 
   .Container_One {
     // padding-left: 4.9%;
@@ -96,15 +102,15 @@
       // sdisplay: flex;
       // justify-content: center;
       .Title {
-        padding-left: 3.44%;
+        padding-left: 7.44%;
       }
       .Image {
         // margin-top: 0;
       }
       img {
         margin-top: 10%;
-        padding-left: 40%;
-        padding-right: 30%;
+        padding-left: 7.44%;
+        // padding-right: 30%;
       }
     }
   }

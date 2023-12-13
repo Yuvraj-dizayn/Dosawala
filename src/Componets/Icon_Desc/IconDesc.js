@@ -12,16 +12,50 @@ const IconDesc = (props) => {
     <div className={style.Container}>
       <div className={style.DescOne}>
         <p className={style.Main_Title}>User Link</p>
-        <IconWIthTitle Title={"Our Story"} Icon={<RightIcon />} />
-        <IconWIthTitle Title={"Download Menu"} Icon={<RightIcon />} />
-        <IconWIthTitle Title={"Vison And Growtth"} Icon={<RightIcon />} />
-        <IconWIthTitle Title={"Franchies"} Icon={<RightIcon />} />
+        <IconWIthTitle
+          Title={"Our Story"}
+          Icon={<RightIcon />}
+          Link={"/about#OurStory"}
+          NextPage
+        />
+        <IconWIthTitle
+          Title={"Download Menu"}
+          Icon={<RightIcon />}
+          Link={"#Menu"}
+          NextPage
+        />
+        <IconWIthTitle
+          Title={"Vison And Growth"}
+          Icon={<RightIcon />}
+          Link={"/about#Grouth"}
+          NextPage
+        />
+        <IconWIthTitle
+          Title={"Franchies"}
+          Icon={<RightIcon />}
+          Link={"#Franchise"}
+          NextPage
+        />
       </div>
       <div className={style.DescTwo}>
         <p className={style.Main_Title}>Social Media</p>
-        <IconWIthTitle Title={"Facebook"} Icon={<Facebook />} />
-        <IconWIthTitle Title={"Twitter"} Icon={<Twitter />} />
-        <IconWIthTitle Title={"Instagram"} Icon={<Instagram />} />
+        <IconWIthTitle
+          Title={"Facebook"}
+          Icon={<Facebook />}
+          Link={"https://www.facebook.com/dosawalaindia/"}
+        />
+        <IconWIthTitle
+          Title={"Twitter"}
+          Icon={<Twitter />}
+          Link={
+            "https://twitter.com/i/flow/login?redirect_after_login=%2FDosawala1"
+          }
+        />
+        <IconWIthTitle
+          Title={"Instagram"}
+          Icon={<Instagram />}
+          Link={"https://www.instagram.com/dosawala_official/"}
+        />
         <IconWIthTitle Title={"Call"} Icon={<Call />} />
       </div>
     </div>

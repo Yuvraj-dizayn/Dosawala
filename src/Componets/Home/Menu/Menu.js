@@ -5,9 +5,11 @@ import MenuTitlePrice from "./MenuTitlePrice/MenuTitlePrice";
 
 const Menu = (props) => {
   const [titleprice, setTitlePrice] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const chageTitlePrice = (index) => {
     setTitlePrice(index);
+    setActiveIndex(index);
   };
   const MenuPrice = [
     [
@@ -57,7 +59,7 @@ const Menu = (props) => {
   const Tilte = ["Vadai&upma", "Classic", "Premium", "Supreme", "Signature"];
 
   return (
-    <div className={style.Container}>
+    <div className={style.Container} id="Menu">
       <div className={style.TitleContainer}>
         <p className={style.TitleOne}>Find About</p>
         <p className={style.TitleTwo}>Our Menu</p>
@@ -67,7 +69,7 @@ const Menu = (props) => {
         {Tilte.map((item, index) => {
           return (
             <p
-              className={style.One}
+              className={activeIndex === index ? style.active : style.One}
               key={index}
               onClick={() => chageTitlePrice(index)}
             >

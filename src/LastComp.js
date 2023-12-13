@@ -3,7 +3,7 @@ import styles from "./LastComp.module.scss";
 
 const LastComp = (props) => {
   return (
-    <div className={styles.Container}>
+    <div className={styles.Container} id="Contact">
       <div className={styles.Left_Container}>
         <h4 className={styles.Left_Container_Title}>Contact us for more</h4>
         <div className={styles.Left_Container_Email}>

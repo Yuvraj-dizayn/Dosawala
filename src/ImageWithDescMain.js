@@ -1,15 +1,11 @@
 import React from "react";
 import ImageWithDesc from "./ImageWithDesc";
-import Owner from "./Image/Owner.png";
 import Second from "./Second";
 import LastComp from "./LastComp";
 import Email_Icon from "./Image/Email_Icon.png";
 import Call_Icon from "./Image/Call_Icon.jpg";
 import Map from "./Componets/Map/Map";
 import Map_Image from "../src/Image/Map_Image.jpeg";
-import Footer from "./Componets/Footer/Footer";
-// import DowalaIcon from "./Componets/Icons/DosawalaIcon";
-import finalLogo from "./Image/Final.png";
 import Cock from "./Image/Cock.png";
 import Last from "./Image/Last.png";
 import Vector from "./Image/Vector.png";
@@ -23,7 +19,6 @@ const ImageWithDescMain = () => {
         type
         Margin_Top
         image={mainImage}
-        // style={{ backgroundColor: "#a6ce39" }}
         Title={"About Dosawala"}
         Desc1={
           " Dosawa is the best South Indian restaurant brand that has more than a decade of experience in serving authentic and contemporary delicacies  of South Indian cuisine "
@@ -85,7 +80,6 @@ const ImageWithDescMain = () => {
       />{" "}
       <LastComp Email_Image={Email_Icon} Call_Image={Call_Icon} image={Last} />{" "}
       <Map image={Map_Image} />
-      <Footer />
     </div>
   );
 };

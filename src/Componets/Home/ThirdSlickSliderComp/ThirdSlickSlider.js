@@ -11,19 +11,19 @@ import ThirdSlide2 from "../../../Image/ThirdSlide2.png";
 import ThirdSlide3 from "../../../Image/ThirdSlide3.png";
 
 const ThirdSlickSlider = () => {
-  const centerPadiing = () => {
-    const width = window.innerWidth;
+  // const centerPadiing = () => {
+  //   const width = window.innerWidth;
 
-    if (width < 900) {
-      return "200px";
-    } else if (width < 800) {
-      return "180px";
-    }
-  };
+  //   if (width < 900) {
+  //     return "200px";
+  //   } else if (width < 800) {
+  //     return "180px";
+  //   }
+  // };
   const settings = {
     className: "center",
     centerMode: true,
-    centerPadding: centerPadiing(),
+    centerPadding: "20px",
     slidesToShow: 1,
     speed: 500,
     slidesToScroll: 1,
